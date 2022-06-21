@@ -1,0 +1,41 @@
+$primary: #022c43;
+
+/*  Mobile Version First*/
+
+.hero {
+    background-color: $primary;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+
+    &_text {
+        height: 500px;
+        width: 90%;
+        // background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        &_name {
+            // font-family: 'Poppins', sans-serif;
+            font-family: 'Coolvetica';
+            font-size: 53px;
+            margin-bottom: 1rem;
+            font-weight: 400;
+            margin: 0;
+        }
+        &_domain {
+            color: #adadad;
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 11px;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            animation: fadeIn 1s 1.8s backwards;
+        }
+    }
+
+}
